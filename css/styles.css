@@ -1,0 +1,1329 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* header nav{
+    position: sticky;
+    top: 0px;
+} */
+header nav .image img {
+    width: 130px;
+    height: 50px;
+}
+
+header nav .input {
+    position: relative;
+}
+
+header nav .input::after {
+    position: absolute;
+    content: '' '';
+    height: 50px;
+    width: 400px;
+    background: rgb(223, 220, 220);
+    bottom: 0;
+    margin-left: 90px;
+    border-radius: 25px;
+}
+
+header nav .input input {
+    height: 50px;
+    width: 600px;
+    border-radius: 25px 0px 0px 25px;
+    font-size: large;
+    padding-left: 15px;
+    margin-left: 200px;
+    margin-top: 6px;
+    border: 2px solid rgb(223, 220, 220);
+}
+
+header nav {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+header nav .input button {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px 25px 25px 0px;
+    padding-left: 10px;
+    text-align: center;
+    position: absolute;
+    margin-top: 6px;
+    background-color: white;
+    border: 2px solid rgb(223, 220, 220);
+}
+
+section .two {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .two .sub {
+    display: block;
+    width: 420px;
+    height: 675px;
+}
+
+section {
+    background-color: white;
+}
+
+section .two .sub ul {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 675px;
+    scroll-behavior: smooth;
+}
+
+section .two .sub ul li {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    padding-left: 25px;
+}
+
+section .two .sub ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section .two .sub ul li a:hover {
+    background-color: rgb(223, 220, 220);
+    width: fit-content;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+section .two .sub ul li:hover {
+    background-color: rgb(223, 220, 220);
+    ;
+}
+
+section .two .sub ul h4 a:hover {
+    font-size: large;
+    color: rgb(110, 103, 103);
+}
+
+section .two .sub ul h4 a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+section .two .sub ul h4 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+section .two .sub ul h4:last-child {
+    padding-bottom: 30px;
+}
+
+section .two .sub ul .i {
+    position: relative;
+}
+
+section .two .sub ul .i::before {
+    position: absolute;
+    content: '' '';
+    background: rgb(110, 103, 103);
+    height: 3px;
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+
+section .two .sub ul button {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 2px solid royalblue;
+}
+
+section .two .sub ul button a {
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+    font-size: medium;
+}
+
+section .two .sub ul button:hover {
+    background-color: rgb(183, 197, 239);
+}
+
+section .two .sub ul button a:hover {
+    padding-left: 5px;
+    color: rgb(71, 124, 124);
+}
+
+section .two .sub ul .ii {
+    position: relative;
+}
+
+section .two .sub ul .ii::before {
+    position: absolute;
+    content: '' '';
+    background: rgb(110, 103, 103);
+    height: 3px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+}
+
+section .two .sub ul h3 {
+    padding: 10px;
+}
+
+section .two .sub ul .iii {
+    position: relative;
+}
+
+section .two .sub ul .iii::before {
+    position: absolute;
+    content: '' '';
+    background: rgb(110, 103, 103);
+    height: 3px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+}
+
+section .two .sub ul .iv {
+    position: relative;
+}
+
+section .two .sub ul .iv::before {
+    position: absolute;
+    content: '' '';
+    background: rgb(110, 103, 103);
+    height: 3px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+}
+
+section .two .sub ul .v {
+    position: relative;
+}
+
+section .two .sub ul .v::before {
+    position: absolute;
+    content: '' '';
+    background: rgb(110, 103, 103);
+    height: 3px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+}
+
+section .two .sub ul .vi {
+    position: relative;
+}
+
+section .two .sub ul .vi::before {
+    position: absolute;
+    content: '' '';
+    background: rgb(110, 103, 103);
+    height: 3px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+}
+
+section .two .subb {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 670px;
+}
+
+section .two .subb .i img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .i .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .i .i h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .i .ii .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .ii .iii .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .iii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .iv .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .v .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .vi .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .vii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .viii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .ix .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .x .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xi .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xiii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xiv .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xv .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xvi .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xvii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xviii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xix .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xx .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xxi .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xxii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xxiii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .xxiv .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .i .ii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .i .iii .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .i .iii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .i {
+    display: flex;
+}
+
+section .two .subb .i .i {
+    display: block;
+}
+
+section .two .subb .i .ii {
+    display: block;
+}
+
+section .two .subb .i .iii {
+    display: block;
+}
+
+section .two .subb .i h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .i h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .ii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .ii {
+    display: flex;
+}
+
+section .two .subb .ii .i {
+    display: block;
+}
+
+section .two .subb .ii .ii {
+    display: block;
+}
+
+section .two .subb .ii .iii {
+    display: block;
+}
+
+section .two .subb .ii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 3px;
+}
+
+section .two .subb .ii h4 {
+    padding-bottom: 3px;
+    padding-left: 0px;
+}
+
+section .two .subb .ii .i .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .ii .ii .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .ii .ii .i:hover {
+    background-color: rgb(210, 197, 197);
+    border-radius: 5px;
+}
+
+section .two .subb .ii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .iii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .iii {
+    display: flex;
+}
+
+section .two .subb .iii .i {
+    display: block;
+}
+
+section .two .subb .iv img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .iv {
+    display: flex;
+}
+
+section .two .subb .iv .i {
+    display: block;
+}
+
+section .two .subb .v img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .v {
+    display: flex;
+}
+
+section .two .subb .v .i {
+    display: block;
+}
+
+section .two .subb .vi img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .vi {
+    display: flex;
+}
+
+section .two .subb .vi .i {
+    display: block;
+}
+
+section .two .subb .vii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .vii {
+    display: flex;
+}
+
+section .two .subb .vii .i {
+    display: block;
+}
+
+section .two .subb .viii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .viii {
+    display: flex;
+}
+
+section .two .subb .viii .i {
+    display: block;
+}
+
+section .two .subb .ix img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .ix {
+    display: flex;
+}
+
+section .two .subb .ix .i {
+    display: block;
+}
+
+section .two .subb .x img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .x {
+    display: flex;
+}
+
+section .two .subb .x .i {
+    display: block;
+}
+
+section .two .subb .xi img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xi {
+    display: flex;
+}
+
+section .two .subb .xi .i {
+    display: block;
+}
+
+section .two .subb .xii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xii {
+    display: flex;
+}
+
+section .two .subb .xii .i {
+    display: block;
+}
+
+section .two .subb .xiii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xiii {
+    display: flex;
+}
+
+section .two .subb .xiii .i {
+    display: block;
+}
+
+section .two .subb .xiv img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xiv {
+    display: flex;
+}
+
+section .two .subb .xiv .i {
+    display: block;
+}
+
+section .two .subb .xv img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xv {
+    display: flex;
+}
+
+section .two .subb .xv .i {
+    display: block;
+}
+
+section .two .subb .xvi img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xvi {
+    display: flex;
+}
+
+section .two .subb .xvi .i {
+    display: block;
+}
+
+section .two .subb .xvii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xvii {
+    display: flex;
+}
+
+section .two .subb .xvii .i {
+    display: block;
+}
+
+section .two .subb .xviii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xviii {
+    display: flex;
+}
+
+section .two .subb .xviii .i {
+    display: block;
+}
+
+section .two .subb .xix img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xix {
+    display: flex;
+}
+
+section .two .subb .xix .i {
+    display: block;
+}
+
+section .two .subb .xx img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xx {
+    display: flex;
+}
+
+section .two .subb .xx .i {
+    display: block;
+}
+
+section .two .subb .xxi img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xxi {
+    display: flex;
+}
+
+section .two .subb .xxi .i {
+    display: block;
+}
+
+section .two .subb .xxii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xxii {
+    display: flex;
+}
+
+section .two .subb .xxii .i {
+    display: block;
+}
+
+section .two .subb .xxiii img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xxiii {
+    display: flex;
+}
+
+section .two .subb .xxiii .i {
+    display: block;
+}
+
+section .two .subb .xxiv img {
+    height: 270px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .two .subb .xxiv {
+    display: flex;
+}
+
+section .two .subb .xxiv .i {
+    display: block;
+}
+
+section .two .subb .iii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 3px;
+}
+
+section .two .subb .iii h4 {
+    padding-bottom: 3px;
+    padding-left: 0px;
+}
+
+section .two .subb .iii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .iii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .iv h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 3px;
+}
+
+section .two .subb .iv h4 {
+    padding-bottom: 3px;
+    padding-left: 0px;
+}
+
+section .two .subb .iv h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .iv h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .v h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .v h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .v h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .v h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .vi h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .vi h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .vi h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .vi h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .vii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .vii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .vii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .vii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .viii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .viii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .viii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .viii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .ix h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .ix h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .ix h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .ix h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .x h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .x h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .x h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .x h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xi h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xi h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xi h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xi h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xiii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xiii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xiii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xiii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xiv h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xiv h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xiv h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xiv h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xv h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xv h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xv h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xv h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xvi h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xvi h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xvi h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xvi h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xvii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xvii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xvii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xvii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xviii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xviii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xviii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xviii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xix h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xix h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xix h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xix h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xx h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xx h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xx h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xx h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xxi h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xxi h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xxi h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xxi h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xxii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xxii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xxii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xxii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xxiii h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xxiii h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xxiii h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xxiii h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section .two .subb .xxiv h3 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+section .two .subb .xxiv h4 {
+    padding-bottom: 3px;
+    padding-left: 90px;
+}
+
+section .two .subb .xxiv h3:hover {
+    background-color: rgb(210, 197, 197);
+}
+
+section .two .subb .xxiv h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 481px) {
+    body {
+        background-color: black;
+    }
+
+    header nav {
+        height: 50px;
+        width: 50px;
+        padding: 0px;
+        margin: 0px;
+        display: none;
+    }
+
+    header nav .image img {
+        padding: 0;
+        margin: 0;
+        height: 5px;
+        width: 10px;
+        left: 0;
+    }
+
+    header nav .input input {
+        display: none;
+    }
+
+    header nav .input button {}
+    .two .sub{
+        display: none;
+    }
+}
+
+section .two .sub .xxv {
+    background-color: rgb(56, 55, 55);
+}
+
+section .two .subb .xxv h2 {
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+section .two .subb .xxv h3 {
+    text-align: center;
+}
